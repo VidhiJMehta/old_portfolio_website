@@ -1,0 +1,56 @@
+  
+  @font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+  }
+  
+  .left {
+    position: absolute;
+    min-height: 100%;
+    background-color: black;
+    width: 25%;
+  }
+
+  div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-bottom: 1rem;
+}
+
+  .left img {
+      position: sticky;
+      margin-top: 3em;
+      margin-bottom: 1em;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      border-color: #C99C9B;
+      border-width: 5px;
+      border-style: solid;
+      max-width: 100%;
+    }
+
+   .left h2 {
+    color: #C99C9B;
+    align-content: center;
+    font-family: 'Avenir', Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+  .right {
+    position: absolute;
+    background-color: lightgreen;
+    width: 75%;
+    right: 0px;
+    float: right;
+  }
+
+.left .col-sm-12 {
+    background-color: lightseagreen;
+}
